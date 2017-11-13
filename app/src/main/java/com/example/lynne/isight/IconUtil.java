@@ -172,7 +172,8 @@ public class IconUtil {
                 }
 
 
-                //do text to speech
+                //do text to speech  using Android TTS package  now
+
             }
 
             public Runnable init(int drawable_image_id, RectF location, ViewGroupOverlay v, ImageView overlay_ImageView, String Mode, boolean tts_on, MainActivity parent_Activity){
