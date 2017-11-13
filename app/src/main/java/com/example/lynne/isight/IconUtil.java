@@ -160,7 +160,7 @@ public class IconUtil {
                     overlay_ImageView.measure(View.MeasureSpec.makeMeasureSpec(width, View.MeasureSpec.EXACTLY), View.MeasureSpec.makeMeasureSpec(height, View.MeasureSpec.EXACTLY));
 
 
-                    //location of the View in terms of left, top,right, bottom
+                    //location of the View in terms of left, top,right, bottom -- is bounding box of the icon
                     overlay_ImageView.layout(left, top, width+left, height+ top);
 
 
