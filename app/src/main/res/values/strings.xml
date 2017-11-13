@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">iSight</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="CLOUD_VISION_API_KEY">AIzaSyADVfA-gdaCBbpE0HtXIikCcb1HoRmVxZ0</string>
+    <string name="loading_message">uploading the image</string>
+    <string name="ANDROID_CERT_HEADER">X-Android-Cert</string>
+    <string name="ANDROID_PACKAGE_HEADER">X-Android-Package</string>
+    <string name="COUNT_GOOGLE_CLOUD_TRIGGER">300</string>
+
+    <string name="ICON_MODE">BoundingBox</string>
+
+
+
+
+    <string-array name="spinner_menu">
+        <item>Random</item>
+        <item>Google Cloud Vision API</item>
+        <item>TensorFlow</item>
+        <item>Threshold</item>
+        <item>My Slow Threshold</item>
+        <item>My Fast Threshold</item>
+        <item>Greyscale</item>
+        <item>My Fast Greyscale</item>
+        <item>My Slow Greyscale</item>
+        <item>Edge Detect</item>
+        <item>Negative</item>
+        <item>Contrast Stretch</item>
+        <item>Edgy</item>
+        <item>Best Lines</item>
+        <item>My Best Lines</item>
+        <item>Corners</item>
+        <item>Dilate</item>
+        <item>Erode</item>
+        <item>Blur</item>
+        <item>GaussBlur</item>
+        <item>Canny</item>
+        <item>Hough</item>
+    </string-array>
+</resources>
